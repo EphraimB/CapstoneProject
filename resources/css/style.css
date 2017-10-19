@@ -1,0 +1,25 @@
+#gray {
+  color: gray;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 24px;
+  margin-right: 24px;
+  height: 64px;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav span {
+  margin-left: 16px;
+}
