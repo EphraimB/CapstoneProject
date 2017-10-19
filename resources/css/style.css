@@ -23,3 +23,9 @@ nav {
 nav span {
   margin-left: 16px;
 }
+
+#banner img {
+  margin: 32px 24px;
+  width: 60%;
+  height: auto;
+}
