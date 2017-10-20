@@ -64,7 +64,7 @@ nav span {
 }
 
 #information {
-
+  
 }
 
 #information img {
@@ -74,9 +74,13 @@ nav span {
 
 #information h2 {
   margin-left: 24px;
-  margin-bottom: 24px;
 }
 
 #information p {
+  margin: 24px 0 24px 24px;
+}
+
+#information span {
   margin-left: 24px;
+  margin-bottom: 32px;
 }
