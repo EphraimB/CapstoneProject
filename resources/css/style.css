@@ -1,5 +1,9 @@
+body {
+  margin: 0;
+}
+
 #gray {
-  color: gray;
+  color: lightgray;
 }
 
 header {
@@ -15,6 +19,16 @@ header {
   align-items: center;
 }
 
+#logo img {
+  height: 45px;
+}
+
+#logo h1 {
+  display: flex;
+  align-items: center;
+  height: 32px;
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -24,8 +38,27 @@ nav span {
   margin-left: 16px;
 }
 
+#banner {
+  display: flex;
+  background-color: lightgray;
+}
+
 #banner img {
   margin: 32px 24px;
   width: 60%;
-  height: auto;
+}
+
+#banner #RightSide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 24px;
+  font-size: 24px;
+}
+
+#banner #button {
+  padding: 8px 0;
+  color: white;
+  background-color: gray;
+  text-align: center;
 }
