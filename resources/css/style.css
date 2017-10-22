@@ -104,7 +104,11 @@ nav a {
 #information .RightSide .row img {
   width: 35%;
   height: auto;
-  margin: 16px 16px;
+  margin: 16px;
+}
+
+#information .RightSide .row .MobileImage {
+  display: none;
 }
 
 #information .RightSide #ThirdRow {
@@ -122,6 +126,10 @@ nav a {
 
 #information .RightSide .details a {
   text-decoration: none;
+}
+
+.MobileHeader {
+  display: none;
 }
 
 #learning {
@@ -289,5 +297,53 @@ footer #TermsAndPrivacy a {
     width: 90%;
     margin-left: 16px;
     margin-bottom: 32px;
+  }
+
+  #information {
+    display: block;
+  }
+
+  #information .LeftSide {
+    display: none;
+  }
+
+  #information .RightSide {
+    width: 100%;
+    margin: 16px;
+  }
+
+  #information .RightSide .row {
+    display: block;
+    border: none;
+  }
+
+  #information .RightSide .row img {
+    width: 90%;
+  }
+
+  #information .RightSide .row .DesktopImage {
+    display: none;
+  }
+
+  #information .RightSide .row .MobileImage {
+    display: inline-block;
+  }
+
+  #information .RightSide #ThirdRow {
+    display: block;
+    background-color: white;
+  }
+
+  #information .RightSide .details {
+    margin-top: 0;
+    margin-left: 32px;
+  }
+
+  .DesktopHeader {
+    display: none;
+  }
+
+  .MobileHeader {
+    display: block;
   }
 }
