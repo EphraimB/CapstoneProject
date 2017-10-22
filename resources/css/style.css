@@ -34,8 +34,10 @@ nav {
   align-items: center;
 }
 
-nav span {
+nav a {
   margin-left: 16px;
+  text-decoration: none;
+  color: black;
 }
 
 #banner {
