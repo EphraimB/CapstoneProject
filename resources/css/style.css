@@ -171,12 +171,17 @@ nav span {
   text-align: center;
 }
 
+#ThesisExhibit .content {
+  display: flex;
+}
+
 #ThesisExhibit .LeftSide {
+  width: 60%;
   margin-left: 24px;
 }
 
 #ThesisExhibit .LeftSide video {
-  width: 60%;
+  width: 100%;
 }
 
 #ThesisExhibit .LeftSide h3 {
@@ -185,4 +190,29 @@ nav span {
 
 #ThesisExhibit .LeftSide p {
   margin-bottom: 32px;
+}
+
+#ThesisExhibit .RightSide {
+  width: 40%;
+  margin-left: 24px;
+}
+
+#ThesisExhibit .RightSide .row {
+  display: flex;
+}
+
+#ThesisExhibit .RightSide .row .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#ThesisExhibit .RightSide .row img {
+  width: 35%;
+  height: auto;
+  padding: 16px;
+}
+
+#ThesisExhibit .RightSide #FirstRow {
+  background-color: lightgray;
 }
