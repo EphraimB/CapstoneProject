@@ -40,6 +40,10 @@ nav a {
   color: black;
 }
 
+#MobileNav {
+  display: none;
+}
+
 #banner {
   display: flex;
   background-color: lightgray;
@@ -240,4 +244,26 @@ footer #TermsAndPrivacy a {
   color: gray;
   text-decoration: none;
   margin-left: 8px;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    justify-content: center;
+  }
+
+  #MobileNav {
+    display: flex;
+  }
+
+  nav #MobileNav img {
+    height: 45px;
+  }
+
+  #logo h1 {
+    display: none;
+  }
+
+  #DesktopNav {
+    display: none;
+  }
 }
