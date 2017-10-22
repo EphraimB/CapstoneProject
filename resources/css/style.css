@@ -64,23 +64,55 @@ nav span {
 }
 
 #information {
-  
+  display: flex;
 }
 
-#information img {
-  margin: 32px 24px;
+#information #LeftSide {
   width: 60%;
+  margin: 32px 24px;
 }
 
-#information h2 {
-  margin-left: 24px;
+#information #LeftSide img {
+  width: 100%;
 }
 
-#information p {
-  margin: 24px 0 24px 24px;
+#information #LeftSide h2 {
+  font-size: 36px;
+}
+#information #RightSide {
+  width: 40%;
+  margin-left: 32px;
 }
 
-#information span {
-  margin-left: 24px;
-  margin-bottom: 32px;
+#information #RightSide .row {
+  display: flex;
+  border: 1px solid lightgray;
+}
+
+#information #RightSide .row h3,
+#information #RightSide .row p {
+  margin-bottom: 8px;
+}
+
+#information #RightSide .row img {
+  width: 35%;
+  height: auto;
+  margin: 16px 16px;
+}
+
+#information #RightSide #ThirdRow {
+  display: flex;
+  background-color: lightgray;
+}
+
+#information #RightSide .details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 65%;
+  margin: 32px 24px;
+}
+
+#information #RightSide .details a {
+  text-decoration: none;
 }
