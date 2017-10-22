@@ -237,4 +237,5 @@ footer #TermsAndPrivacy {
 footer #TermsAndPrivacy a {
   color: gray;
   text-decoration: none;
+  margin-left: 8px;
 }
