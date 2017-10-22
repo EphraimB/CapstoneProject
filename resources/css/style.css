@@ -235,6 +235,10 @@ nav a {
   background-color: lightgray;
 }
 
+#MobileVideo {
+  display: none;
+}
+
 footer {
   display: flex;
   justify-content: space-between;
@@ -375,5 +379,22 @@ footer #TermsAndPrivacy a {
     padding-left: 16px;
     padding-top: 16px;
     padding-bottom: 24px;
+  }
+
+  #ThesisExhibit h2 {
+    margin: 0;
+    padding-top: 32px;
+    padding-bottom: 16px;
+  }
+
+  #ThesisExhibit .content {
+    display: none;
+  }
+
+  #MobileVideo {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 24px;
   }
 }
