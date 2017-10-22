@@ -266,4 +266,28 @@ footer #TermsAndPrivacy a {
   #DesktopNav {
     display: none;
   }
+
+  #banner {
+    display: block;
+  }
+
+  #banner img {
+    width: 100%;
+    margin: 0;
+  }
+
+  #banner h2 {
+    margin: 32px 16px;
+  }
+
+  #banner p {
+    margin-bottom: 24px;
+    margin-left: 16px;
+  }
+
+  #banner #button {
+    width: 90%;
+    margin-left: 16px;
+    margin-bottom: 32px;
+  }
 }
