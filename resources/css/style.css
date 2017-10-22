@@ -216,3 +216,25 @@ nav span {
 #ThesisExhibit .RightSide #FirstRow {
   background-color: lightgray;
 }
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid lightgray;
+  padding-bottom: 32px;
+}
+
+footer #copyright p {
+  margin-top: 16px;
+  margin-left: 24px;
+}
+
+footer #TermsAndPrivacy {
+  margin-top: 16px;
+  margin-right: 24px;
+}
+
+footer #TermsAndPrivacy a {
+  color: gray;
+  text-decoration: none;
+}
