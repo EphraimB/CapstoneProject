@@ -397,4 +397,14 @@ footer #TermsAndPrivacy a {
     height: auto;
     margin-bottom: 24px;
   }
+
+  footer {
+    display: block;
+    padding: 16px 0;
+    border: none;
+  }
+
+  footer #TermsAndPrivacy {
+    display: none;
+  }
 }
